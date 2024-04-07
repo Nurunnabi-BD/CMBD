@@ -1,0 +1,63 @@
+* {
+margin: 0;
+padding: 0;
+}
+.header {
+    /* The background image */
+    background-image: url(header-hero.jpg);
+    
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#bar  {
+  text-align:right;
+
+}
+#bar a {
+  margin: 0 5px 15px;
+  padding:5px 15px;
+  display: inline-block;
+  background-color:none;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+header img {
+  width: 50px;
+  margin: 0 auto;
+}
+.Design {
+  text-align: center;
+  line-height: 1px;
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.Design h2 {
+  font-size: 50px;
+  margin-top: 0;
+}
+.Design h1 {
+  font-size: 100px;
+}
+.Design p {
+  margin-top: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button1 {
+  margin: 30px;
+  font-size: 18px;
+  padding:15px 40px;
+  text-align: center;
+  background-color: yellow;
+  border: none;
+  border-style: groove;
+  font-family: 'Times New Roman', Times, serif;
+}
+.mid {
+  background-color: white;
+  
+}

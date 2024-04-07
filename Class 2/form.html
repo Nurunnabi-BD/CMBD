@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Job Application Form</h2>
+    <p>Thank you for your interest in working with us. Please check below for
+        available job opportunities that meet your criteria and send your application
+        by filling out the Job Application Form.</p><br>
+    <form>
+        <fieldset>
+            <!-- Name -->
+           <label for="name">Name</label>
+           <span style="color: red;">*</span><br>
+           <input id="name" type="text" placeholder="First Name" required> 
+           <input id="name" type="text" placeholder="Last Name" required><br><br> 
+
+           <!-- Email -->
+           <label for="email">Email</label>
+           <span style="color: red;">*</span><br>
+           <input id="email" type="email" placeholder="example@example.com" required>
+           <br><br>
+
+           <!-- Phone -->
+           <label for="phone">Phone Number</label><span style="color: red;">*</span><br>
+           <select name="" id="phone" required >
+            <option value="+88">+88</option>
+            <option value="+91">+91</option>
+            <option value="+81">+81</option>
+            <option value="+86">+86</option>
+            <option value="+84">+84</option>
+           </select><input type="number" name="" id="phone" placeholder="01625684726" required><br><br>
+
+           <!-- Password -->
+           <label for="pass">Password</label><span style="color: red;">*</span><br>
+           <input type="password"  id="pass" required><br><br>
+
+           <!-- Country -->
+           <label for="Country">Country</label>
+           <select  id="Country">
+               <option value="">--Select Country--</option> 
+               <option value="Bangladesh">Bangladesh</option>
+               <option value="India">India</option>
+               <option value="Pakistan">Pakistan</option>
+               <option value="Nepal">Nepal</option>
+               <option value="Jpan">Jpan</option>  
+        </select><br><br>
+
+        <!-- Date of Birth -->
+        <label for="date">Date of Birth</label><span style="color: red;">*</span>
+        <input type="date" name="" id="date" required><br><br>
+
+        <!-- Gender -->
+        <label for="gen">Gender: </label><br>
+        <input type="radio" name="Gendar" id="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="Gendar" id="Female">
+        <label for="Female">Female</label>
+        <input type="radio" name="Gendar" id="Others">
+        <label for="Others">Others</label><br><br>
+
+        <!-- position -->
+        <label for="position">What position are you applying for?</label><br>
+        <select>
+            <option value="">--select--</option>
+            <option value="Administrative">Administrative</option>
+            <option value="Administrative assistant">Administrative assistant</option>
+            <option value="Administrative coordinator">Administrative coordinator</option>
+            <option value="Secretary">Secretary</option>
+            <option value="Receptionist">Receptionist</option>
+            <option value="Administrative manager ">Administrative manager </option>
+        </select><br><br>
+
+        <!-- Status -->
+        <label for="Status">What is your Current Employee Status?</label><br>
+        <input type="radio" name="Status" id="Employed">
+        <label for="Employed">Employed</label>
+        <input type="radio" name="Status" id="Self-Employed">
+        <label for="Self-Employed">Self-Employed</label><br>
+        <input type="radio" name="Status" id="">
+        <label for="Unemployed">Unemployed</label>
+        <input type="radio" name="Status" id="Student">
+        <label for="Student">Student</label><br><br>
+
+        <!-- Link -->
+        <label for="Link">Please Provide Your Resume Link</label><br>
+        <input type="url" placeholder="https://www.example.com/"><br><br>
+
+        <!-- Upload -->
+        <label for="">Please Upload Your Resume</label><span style="color: red;">*</span><br>
+        <input type="file"><br><br>
+
+        <!-- References -->
+        <label for="">Do You Have References? (optional)</label><br>
+        <input type="text" placeholder="First">
+        <input type="text"placeholder="Last"><br><br>
+
+        <!-- References Email  -->
+        <label for="References Email">References Email</label><br>
+        <input type="email" name="" id="References Email" placeholder="example@example.com"><br><br>
+
+        <!-- About You  -->
+        <label for="About You ">Write About You</label><br>
+        <textarea name="" id="About You " cols="30" rows="5" placeholder="Hello...."></textarea><br><br>
+
+        <!-- Condition -->
+        <input type="checkbox" name="" id="Condition" required>
+        <label for="Condition">Agree to terms & conditions</label><br><br>
+
+        <!-- Reset-->
+        <input type="reset" value="Reset">
+
+        <!-- Submit -->
+        <input type="submit" value="Apply">
+
+        </fieldset>
+    </form>
+</body>
+</html>
