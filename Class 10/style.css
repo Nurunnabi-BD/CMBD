@@ -7,9 +7,37 @@
 }
 
 html{
-    --praimary-font:"Poppins", sans-serif;
-
+    --primary-font:"Poppins", sans-serif;
+    --primary-color:#21202A;
+    --secondary-color:#545360;
+    --active-color:#3936C4;
+    --inactive-color:#FF8100;
+    --hero-bg-color:#FFFCF5;
+    --all-bg-color:#E4E4ED;
+    font-size: 0.625rem;
 }
+
 body{
-    font-family:var(--praimary-font);
+    font-family:var(--primary-font);
+}
+
+img {
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+header a{
+    font-size: 1.6rem;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 1.5rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
