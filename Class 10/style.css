@@ -35,9 +35,23 @@ header a{
     max-width: 1170px;
     margin: auto;
     padding: 0 1.5rem;
+    padding-top: 4rem;
 }
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.navigation{
+    list-style: none;
+    display: flex;
+    gap: 4.2rem;
+}
+nav ul li a{
+    color: var(--secondary-color);
+    
+}
+.home{
+    color: var(--active-color);
+    
 }
