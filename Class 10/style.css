@@ -427,7 +427,62 @@ header{
     color: white;
     background-color: var(--primary-color);
 }
-
+footer{
+    background-image: url(Allimages/footer\ BG.png);
+    padding-top: 14.5rem;
+    padding-bottom: 4.8rem;
+    border: none;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-content h2{
+    color: white;
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 5.2rem;
+    position: relative;
+}
+.searchbar{
+    display: flex;
+    color: white;
+    gap: 0.6rem;
+    align-items: center;
+    padding: 2.8rem 3.4rem;
+    background-color: var(--active-color);
+    border-radius: 1.5rem;
+    transition: all 0.3s ease;
+}
+.searchbar:hover{
+    scale: 1.1;
+}
+.line{
+    border-top: #3E3C50 solid 0.3rem;
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4.2rem;
+}
+.footer-nav a{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    color: #B5BAC6;
+    transition: all 0.3s ease;
+}
+.footer-nav a:hover{
+    transform: translateY(-0.5rem);
+    scale: 1.1;
+}
 @media(max-width: 768px){
     html{
         font-size: 0.5rem;
@@ -530,6 +585,14 @@ header{
         display: flex;
         flex-direction: column;
         gap: 5rem;
+        text-align: center;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+        justify-content: space-between;
         text-align: center;
     }
 
