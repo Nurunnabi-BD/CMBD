@@ -93,6 +93,7 @@ header a{
 nav ul li a{
     color: var(--secondary-color);
     transition: all 0.3s ease;
+    padding: 1rem 1.5rem;
     position: relative;
 }
 nav ul li a:hover{
@@ -486,6 +487,9 @@ footer{
 @media(max-width: 768px){
     html{
         font-size: 0.5rem;
+    }
+    .container{
+        padding: 0 4rem;
     }
     h1{
         font-size: 6.5rem;
